@@ -15,4 +15,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MoviesManagement.Domain\MoviesManagement.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

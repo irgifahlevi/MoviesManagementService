@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MoviesManagement.Domain.Entities
 {
-    internal class Biography
+    public class Biography
     {
         public int ID { get; set; }
         public string Description { get; set; } = string.Empty;
