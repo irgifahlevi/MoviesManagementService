@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using MoviesManagement.DataAccess.Context;
 using MoviesManagement.DataAccess.Implementation;
 using MoviesManagement.Domain.Repository;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +18,8 @@ builder.Services.AddDbContext<MovieDbContext>(o => o.UseSqlServer(connection));
 
 // depedncy injection
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
+
+builder.Services.AddMvc().AddJsonOptions(a => a.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
 var app = builder.Build();
 

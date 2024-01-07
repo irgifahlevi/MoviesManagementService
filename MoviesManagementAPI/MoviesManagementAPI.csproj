@@ -18,10 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\MoviesManagement.DataAccess\MoviesManagement.DataAccess.csproj" />
     <ProjectReference Include="..\MoviesManagement.Domain\MoviesManagement.Domain.csproj" />
   </ItemGroup>

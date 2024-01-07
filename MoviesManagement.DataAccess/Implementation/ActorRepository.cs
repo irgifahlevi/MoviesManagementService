@@ -1,4 +1,5 @@
-﻿using MoviesManagement.DataAccess.Context;
+﻿using Microsoft.EntityFrameworkCore;
+using MoviesManagement.DataAccess.Context;
 using MoviesManagement.Domain.Entities;
 using MoviesManagement.Domain.Repository;
 using System;
@@ -14,6 +15,12 @@ namespace MoviesManagement.DataAccess.Implementation
         public ActorRepository(MovieDbContext context) : base (context)
         {
             
+        }
+
+        public IEnumerable<Actor> GetActors()
+        {
+            var data = _context.Actors.Include(a => a.Movies).Include(b => b.Biography).Where(a => a.RowStatus == 0).ToList();
+            return data;
         }
     }
 }
