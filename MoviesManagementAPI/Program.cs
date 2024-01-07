@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using MoviesManagement.DataAccess.Context;
+using MoviesManagement.DataAccess.Implementation;
+using MoviesManagement.Domain.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,9 @@ builder.Services.AddSwaggerGen();
 
 var connection = builder.Configuration.GetConnectionString("DB");
 builder.Services.AddDbContext<MovieDbContext>(o => o.UseSqlServer(connection));
+
+// depedncy injection
+builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 
 var app = builder.Build();
 
