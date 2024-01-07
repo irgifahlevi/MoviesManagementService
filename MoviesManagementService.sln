@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesManagementAPI", "MoviesManagementAPI\MoviesManagementAPI.csproj", "{0C2DB563-B85F-4781-88C5-5604B48120D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesManagementAPI", "MoviesManagementAPI\MoviesManagementAPI.csproj", "{0C2DB563-B85F-4781-88C5-5604B48120D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesManagement.Domain", "MoviesManagement.Domain\MoviesManagement.Domain.csproj", "{59A814DD-B5FC-4AAD-BFD1-F468D05ED407}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesManagement.Domain", "MoviesManagement.Domain\MoviesManagement.Domain.csproj", "{59A814DD-B5FC-4AAD-BFD1-F468D05ED407}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesManagement.DataAccess", "MoviesManagement.DataAccess\MoviesManagement.DataAccess.csproj", "{1050C8E6-1EC0-482F-9DF2-89721F6763D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesManagement.DataAccess", "MoviesManagement.DataAccess\MoviesManagement.DataAccess.csproj", "{1050C8E6-1EC0-482F-9DF2-89721F6763D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEST.LIBRARY", "TEST.LIBRARY\TEST.LIBRARY.csproj", "{F6F990DE-6123-41FD-94B1-C6279FC17028}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{1050C8E6-1EC0-482F-9DF2-89721F6763D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1050C8E6-1EC0-482F-9DF2-89721F6763D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1050C8E6-1EC0-482F-9DF2-89721F6763D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F990DE-6123-41FD-94B1-C6279FC17028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F990DE-6123-41FD-94B1-C6279FC17028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F990DE-6123-41FD-94B1-C6279FC17028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F990DE-6123-41FD-94B1-C6279FC17028}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
