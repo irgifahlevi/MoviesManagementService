@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesManagement.Domain", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesManagement.DataAccess", "MoviesManagement.DataAccess\MoviesManagement.DataAccess.csproj", "{1050C8E6-1EC0-482F-9DF2-89721F6763D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEST.LIBRARY", "TEST.LIBRARY\TEST.LIBRARY.csproj", "{F6F990DE-6123-41FD-94B1-C6279FC17028}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{1050C8E6-1EC0-482F-9DF2-89721F6763D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1050C8E6-1EC0-482F-9DF2-89721F6763D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1050C8E6-1EC0-482F-9DF2-89721F6763D3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F6F990DE-6123-41FD-94B1-C6279FC17028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6F990DE-6123-41FD-94B1-C6279FC17028}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6F990DE-6123-41FD-94B1-C6279FC17028}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6F990DE-6123-41FD-94B1-C6279FC17028}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
